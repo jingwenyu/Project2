@@ -26,6 +26,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  background-color: #FFEDD9;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -83,7 +84,22 @@ figcaption{
   text-align: center;
 }
 
-/* ===== LAYOUT STYLES ===== */
+.home{
+  font-family: "Brush Script MT", cursive;
+  padding-bottom: 3.056em;
+  text-align: center;
+}
+
+.p-name{
+  padding-bottom: 3.056em;
+}
+
+.intro{
+  padding:0.5em;
+  margin:0.5em;
+}
+
+/* ===== STATE STYLES ===== */
 @media screen and (min-width: 20em) {
  #content {
   width: 100%;
