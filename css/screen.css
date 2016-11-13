@@ -1,25 +1,91 @@
 /* ===== BASE STYLES ===== */
-
-body{
-  background-color: lightblue;
+html{
+  font-size:1.125em; /*18px*/
+  line-height:1.222em; /*22px=1 gridline*/
 }
 
-.class {
-    background-color: lightgray;
-    color: blue;
-    text-align: center;
+ h1 {
+  font-size: 2.056em; /*37px/18px*/
+  line-height: 1.216em; /*45px/37px*/
+  
+ }
+ 
+ h2 { 
+  font-size:1.667em; /*30px/18px*/
+ }
+ 
+ header{
+  background: url(../images/786009.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
 }
 
-nav{
-  text-align:center;
-  margin: 0;
-  padding: 0.625em;
+footer {
+  padding: 0.611em 1.222em;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* ===== LAYOUT STYLES ===== */
+header{
+  margin: 0 -0.909em;
+  margin-top: -1.222em;
+  padding: 0.909em;
+  padding-bottom: 4em;
+  height: 100%;
+}
+
+#header{
+  padding-top:3.056em; /*55px*/
+}
+
+#navigation{
+  position:absolute;
+  top:0em;
+  
+}
+
+.navigation li{
+  display: inline-block;
+  padding:0em;
+}
+
+.navigation{
+  line-height:1em;
+  padding:0;
+  
+}
+
+.navigation li a{
   display: block;
-  background-color: lightgray;
-  border-style:solid;
-  border-width:0.05em;
+  text-decoration:none;
+  
 }
 
-ul{
-  list-style-position: inside;
+.job-title{
+  font-style: italic;
 }
+
+.graduation-date{
+  font-style: italic;
+}
+
+img {
+	display: block;
+	max-width: 75%;
+	max-height: auto;
+	padding: 0.4em;
+}
+
+figcaption{
+  text-align: center;
+}
+
+/* ===== LAYOUT STYLES ===== */
+@media screen and (min-width: 20em) {
+ #content {
+  width: 100%;
+}
+
