@@ -36,6 +36,12 @@ footer {
   font-size: 2.778em; /*50px/18px*/
 }
 
+.name{
+  padding-top: 1.222em;
+  padding-bottom: 0.5em;
+}
+
+
 /* ===== LAYOUT STYLES ===== */
 header{
   margin: 0 -0.909em;
@@ -105,6 +111,15 @@ figcaption{
 .intro{
   padding:0.5em;
   margin:0.5em;
+}
+
+.contact li{
+  display: block;
+  text-decoration: none;
+}
+
+.h-card{
+   background: url(../images/resume.jpg); 
 }
 
 /* ===== STATE STYLES ===== */
