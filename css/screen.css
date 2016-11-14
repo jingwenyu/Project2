@@ -63,7 +63,7 @@ footer {
 }
 
 #interest{
-  background: url(../images/interest.jpeg); 
+  background: url(../images/927_y04.jpg); 
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -121,13 +121,14 @@ header{
 
 img {
 	display: block;
-	max-width: 75%;
-	max-height: auto;
+	max-width: 50%;
+	max-height: 25%;
 	padding: 0.4em;
 }
 
 figcaption{
-  text-align: center;
+  text-align: left;
+  font-style: italic;
 }
 
 .home{
