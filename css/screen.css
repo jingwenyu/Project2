@@ -45,7 +45,16 @@ footer {
   background: url(../images/resume.jpg); 
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 0.5em;
+}
+
+.p-name{
+  padding: 1.222em;
+  font-family: "Brush Script MT", cursive;
+  font-size: 3.056em;  /*50px/18px*/
+}
+
+.interest{
+  padding-left: 1.222em;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -129,6 +138,11 @@ figcaption{
 .contact li{
   display: block;
   text-decoration: none;
+  font-size: 1.111em;
+}
+
+.name{
+  padding-left: -0.5em;
 }
 
 
