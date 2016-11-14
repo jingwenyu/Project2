@@ -22,11 +22,18 @@ html{
 }
 
 footer {
+  font-size:0.889em; /*16px/18px*/
   padding: 0.611em 1.222em;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: #FFEDD9;
+  text-align: center;
+}
+
+/* ===== MODULAR STYLES ===== */
+.home{
+  font-size: 2.778em; /*50px/18px*/
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -62,7 +69,7 @@ header{
 .navigation li a{
   display: block;
   text-decoration:none;
-  
+  padding: 1.222em;
 }
 
 .job-title{
@@ -87,6 +94,7 @@ figcaption{
 .home{
   font-family: "Brush Script MT", cursive;
   padding-bottom: 3.056em;
+  padding-top: 1.222em;
   text-align: center;
 }
 
