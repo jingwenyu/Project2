@@ -55,6 +55,17 @@ footer {
 
 .interest{
   padding-left: 1.222em;
+  padding-bottom: 1.222em;
+}
+
+.title{
+  
+}
+
+#interest{
+  background: url(../images/interest.jpeg); 
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -145,6 +156,10 @@ figcaption{
   padding-left: -0.5em;
 }
 
+#interest{
+  padding-bottom: 3.056em;
+  padding: 10%;
+}
 
 /* ===== STATE STYLES ===== */
 @media screen and (min-width: 20em) {
