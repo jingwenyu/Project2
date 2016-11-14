@@ -152,7 +152,7 @@ figcaption{
 }
 
 .name{
-  padding-left: -0.5em;
+  padding-left: 0.5em;
 }
 
 #interest{
@@ -165,16 +165,10 @@ figcaption{
  #content {
   width: 100%;
 }
-
-@media screen and (min-width: 64em){
-  #content{
-    width: 100%;
-  }
 }
 
-@media screen and (min-width: 100em){
-  #content{
-    width: 100%;
-  }
+@media screen and (min-width: 64em) {
+ #content {
+  width: 100%;
 }
-
+}
