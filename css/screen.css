@@ -118,10 +118,10 @@ header{
 }
 
 img {
-	display: block;
-	max-width: 50%;
-	max-height: 25%;
-	padding: 0.4em;
+  display: block;
+  max-width: 50%;
+  max-height: 25%;
+  padding: 0.4em;
 }
 
 figcaption{
