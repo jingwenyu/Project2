@@ -41,6 +41,12 @@ footer {
   padding-bottom: 0.5em;
 }
 
+.h-card{
+  background: url(../images/resume.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0.5em;
+}
 
 /* ===== LAYOUT STYLES ===== */
 header{
@@ -53,6 +59,13 @@ header{
 
 #header{
   padding-top:3.056em; /*55px*/
+}
+
+.h-card{
+  margin: 0 -0.909em;
+  margin-top: -1.222em;
+  padding: 15%;
+  height: 100%;
 }
 
 #navigation{
@@ -118,9 +131,6 @@ figcaption{
   text-decoration: none;
 }
 
-.h-card{
-   background: url(../images/resume.jpg); 
-}
 
 /* ===== STATE STYLES ===== */
 @media screen and (min-width: 20em) {
